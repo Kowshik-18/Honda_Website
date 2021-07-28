@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header-color {
+  background-color: #264653;
+}
+
+.head-text p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e0e0e0;
+}
+
+.head-text h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.head-text button {
+  background-color: #e76f51;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.modal-content {
+  background-color: #39525c;
+  color: #ffffff;
+}
+
+.card-img-top {
+  filter: grayscale(1);
+}
+
+.feature-text h1,
+.customer-text h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.feature-text small,
+.customer-text span {
+  color: #e76f51;
+}
+
+.customer-card p {
+  color: #6c6c6c;
+}
+
+.star-icon i {
+  color: #e76f51;
+}

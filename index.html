@@ -10,16 +10,174 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Css link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome script  -->
+    <script src="https://kit.fontawesome.com/bfe3991399.js" crossorigin="anonymous"></script>
+
     <title>Honda CBR</title>
 </head>
 
 <body>
-    <header>
-
+    <header class="header-color py-5">
+        <section class="container py-4 px-lg-1 py-lg-5">
+            <div class="row d-flex flex-column flex-lg-row g-5 align-items-center px-lg-5 m-0">
+                <div class="col align-self-start pt-lg-5">
+                    <div class="head-text pt-lg-4 ms-lg-4 ps-lg-4">
+                        <p>Computer-controlled digital transistorized with electronic advance</p>
+                        <h1 class="text-uppercase">
+                            Honda CBR 300R
+                        </h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                            officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                        <button type="button" class="btn px-5 border-0 text-uppercase" data-bs-toggle="modal"
+                            data-bs-target="#hondaModal">
+                            Purchase
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="hondaModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content text-white">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">FEATURED MODELS</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body d-flex flex-column justify-content-center">
+                                        <img src="images/header-bike.png" alt="" width="380" height="300">
+                                        <p class="bg-danger text-white rounded-pill w-25 text-center">New Model</p>
+                                        <h3 class="text-uppercase">
+                                            Honda CBR 300R
+                                        </h3>
+                                        <h5 class="bg-success w-50 text-center rounded-2">Base MSRP $8,499</h5>
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center">
+                                        <button type="button" class="btn btn-secondary bg-dark px-5"
+                                            data-bs-dismiss="modal">Build</button>
+                                        <button type="button" class="btn btn-primary bg-danger px-5">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="featurette-image img-fluid mx-auto" alt="500x500" src="images/header-bike.png"
+                        data-holder-rendered="true">
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
+        <!-- Feature Cards  -->
+        <section class="my-5 py-5">
+            <article class="feature-text text-center py-5">
+                <h1>Fetured Bikes 2021</h1>
+                <small>Best bike collection
+                    <hr>
+                </small>
+            </article>
+            <article class="container mx-auto py-5 ">
+                <div class="px-lg-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 p-5 rounded-3 border-0 shadow">
+                                <img src="images/feature-bike.jpg" class="card-img-top rounded-3" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-5 rounded-3 border-0 shadow">
+                                <img src="images/feature-bike.jpg" class="rounded-3" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-5 rounded-3 border-0 shadow">
+                                <img src="images/feature-bike.jpg" class="card-img-top rounded-3" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
 
+
+
+        <!-- Customer's card  -->
+        <section class="my-5 py-5">
+            <article class="customer-text text-center py-5">
+                <h1>Happy <span>Clients Says</span></h1>
+            </article>
+            <article class="container mx-auto py-5 ">
+                <div class="px-lg-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div
+                                class="customer-card card d-flex flex-column align-items-center h-100 p-5 rounded-3 border-0 shadow">
+                                <img class="rounded-circle mb-4" src="images/user-1.png" alt="" width="140"
+                                    height="140">
+                                <p class="mb-3 text-center">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                                <div class="container star-icon d-flex justify-content-center mb-2">
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="text-primary mb-4">Regina Miles</p>
+                                <p class="text-dark">Banker</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="customer-card card d-flex flex-column align-items-center h-100 p-5 rounded-3 border-0 shadow">
+                                <img class="rounded-circle mb-4" src="images/user-2.png" alt="" width="140"
+                                    height="140">
+                                <p class="mb-3 text-center">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                                <div class="container star-icon d-flex justify-content-center mb-2">
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="text-primary mb-4">Regina Miles</p>
+                                <p class="text-dark">Banker</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="customer-card card d-flex flex-column align-items-center h-100 p-5 rounded-3 border-0 shadow">
+                                <img class="rounded-circle mb-4" src="images/user-3.jpg" alt="" width="140"
+                                    height="140">
+                                <p class="mb-3 text-center">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                                <div class="container star-icon d-flex justify-content-center mb-2">
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="fas fa-star me-2"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="text-primary mb-4">Regina Miles</p>
+                                <p class="text-dark">Banker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
 
     <footer>

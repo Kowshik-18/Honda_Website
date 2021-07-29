@@ -57,6 +57,10 @@ body {
   background-color: #294b585e;
 }
 
+.name {
+  color: #4f93ad !important;
+}
+
 .customer-card p {
   color: #fffbfb;
 }

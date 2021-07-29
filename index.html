@@ -20,7 +20,40 @@
 </head>
 
 <body>
-    <header class="header-color py-5">
+    <header class="header-color pb-5 pt-3">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <div class="nav-icon d-flex align-items-center px-3 login">
+                                <i class="far fa-user" style="color: aliceblue;"></i>
+                                <a class="nav-link active" aria-current="page" href="#">Login</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <section class="container py-4 px-lg-1 py-lg-5">
             <div class="row d-flex flex-column flex-lg-row g-5 align-items-center px-lg-5 m-0">
                 <div class="col align-self-start pt-lg-5">
@@ -74,8 +107,8 @@
 
     <main>
         <!-- Feature Cards  -->
-        <section class="my-5 py-5">
-            <article class="feature-text text-center py-5">
+        <section class="my-4 py-5">
+            <article class="feature-text text-center py-4">
                 <h1>Fetured Bikes 2021</h1>
                 <small>Best bike collection
                     <hr>
@@ -107,11 +140,11 @@
 
 
         <!-- Customer's card  -->
-        <section class="my-5 py-5">
-            <article class="customer-text text-center py-5">
-                <h1>Happy <span>Clients Says</span></h1>
+        <section class="my-4 py-5 service-cover">
+            <article class="customer-text text-center py-4">
+                <h1 class="text-white">Happy <span>Clients Says</span></h1>
             </article>
-            <article class="container mx-auto py-5 ">
+            <article class="container mx-auto py-3">
                 <div class="px-lg-5">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
@@ -178,6 +211,212 @@
                 </div>
             </article>
         </section>
+
+        <!-- FAQ part  -->
+
+        <section class="container my-4 py-5">
+            <article class="faq-text text-center py-4">
+                <h1>Frequently Asked <span>Questions</span></h1>
+            </article>
+            <article class="container mx-auto py-3">
+                <div class="row d-flex flex-column flex-lg-row g-5 align-items-center px-lg-3 m-0">
+                    <div class="col p-lg-5">
+                        <img class="featurette-image img-fluid mx-auto" alt="500x500" src="images/faq.png"
+                            data-holder-rendered=" true">
+                    </div>
+                    <div class="col p-0 p-lg-4">
+                        <div class="wrapper bg-white rounded shadow">
+                            <div class="accordion accordion-flush border-top border-start border-end rounded-3"
+                                id="myAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header px-2" id="flush-headingOne"> <button
+                                            class="accordion-button collapsed border-0" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            What are the most important things I should
+                                            know about riding a bike? </button> </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse border-0"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                                        <div class="accordion-body p-4">
+                                            Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                            signs, and laws.
+                                            Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                            will
+                                            help you be
+                                            a more focused and legally compliant bike rider.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header px-2" id="flush-headingOne"> <button
+                                            class="accordion-button collapsed border-0" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            How can I tell if my helmet is old and I need a
+                                            new one? </button> </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse border-0"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                                        <div class="accordion-body p-4">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel
+                                            repudiandae ducimus
+                                            quod eos eum magni suscipit, reprehenderit cupiditate porro.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header px-2" id="flush-headingOne"> <button
+                                            class="accordion-button collapsed border-0" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                            aria-expanded="false" aria-controls="flush-collapseFour"> My bike has been
+                                            in
+                                            storage is it safe to ride?
+                                        </button> </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse border-0"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                                        <div class="accordion-body p-4">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non adipisci earum
+                                            est
+                                            natus saepe deleniti, ipsa incidunt esse quas animi ut. Labore ratione
+                                            incidunt,
+                                            dignissimos harum quis est delectus blanditiis, ex natus neque cumque
+                                            voluptatibus vero vitae eum veritatis repudiandae.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header px-2" id="flush-headingOne"> <button
+                                            class="accordion-button collapsed border-0" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                            aria-expanded="false" aria-controls="flush-collapseFive"> What rules should
+                                            I
+                                            follow when riding my bike?
+                                        </button> </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse border-0"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                                        <div class="accordion-body p-4">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nam quidem
+                                            quam
+                                            beatae hic cumque ipsum temporibus ab reprehenderit minima. Minima sint quo
+                                            totam aspernatur fuga. Magnam, natus provident nobis tempore deleniti
+                                            dolorum
+                                            recusandae, distinctio officia a delectus corporis ea.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- why us section  -->
+
+        <section class="my-4 py-5 service-cover">
+            <article class="service-text text-center py-4 mx-3">
+                <h1 class="text-white">Our <span>MOTO HERO</span> Services</h1>
+            </article>
+            <article class="container mx-auto py-3 mx-1">
+                <div class="px-lg-5">
+                    <div class="row row-cols-1 row-cols-md-2 g-5  mx-lg-0 mx-1 text-white">
+
+                        <div class="col">
+                            <div class="medium-icon d-flex align-items-center px-lg-2 px-0">
+                                <div class="me-4 text-end px-2">
+                                    <h4 class="fw-bolder">Premium Quality</h4>
+                                    <p>We guarante quality of our works from diagnostic to repairs</p>
+                                </div>
+                                <img class="rounded-circle mb-4  p-3" src="icons/motorcycle-solid.svg" alt="" width="72"
+                                    height="72">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="medium-icon d-flex align-items-center px-lg-2 px-0">
+                                <img class="rounded-circle mb-4 p-3" src="icons/stopwatch-solid.svg" alt="" width=" 72"
+                                    height="72">
+                                <div class="ms-4 text-start px-2">
+                                    <h4 class="fw-bolder">Dependable Services</h4>
+                                    <p>We love to take pride in the work we do, Each project is finished in time and
+                                        budget</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="medium-icon d-flex align-items-center px-lg-2 px-0">
+                                <div class="me-4 text-end px-2">
+                                    <h4 class="fw-bolder">Reputable Company</h4>
+                                    <p>Operating more than 30 years, Earing a reputation of service and beatiful work
+                                    </p>
+                                </div>
+                                <img class="rounded-circle mb-4 p-3" src="icons/trophy-solid.svg" alt="" width="72"
+                                    height="72">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="medium-icon d-flex align-items-center px-lg-2 px-0">
+                                <img class="rounded-circle mb-4 p-3" src="icons/tools-solid.svg" alt="" width="72"
+                                    height="72">
+                                <div class="ms-4 text-start px-2">
+                                    <h4 class="fw-bolder">Free Consultation</h4>
+                                    <p>We offer free consultation for our services, and will provide you an actual quote
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="medium-icon d-flex align-items-center px-lg-2 px-0">
+                                <div class="me-4 text-end px-2">
+                                    <h4 class="fw-bolder">Online Services</h4>
+                                    <p>You can be assured of our support 24 hours a day, 7 days a week</p>
+                                </div>
+                                <img class="rounded-circle mb-4 p-3" src="icons/comment-alt-solid.svg" alt="" width="72"
+                                    height="72">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="medium-icon d-flex align-items-center px-lg-2 px-0">
+                                <img class="rounded-circle mb-4 p-3" src="icons/biking-solid.svg" alt="" width="72"
+                                    height="72">
+                                <div class="ms-4 text-start px-2">
+                                    <h4 class="fw-bolder">Exclusive Offers</h4>
+                                    <p>Motorcycles repair is carried out at a highly professional level</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+        <section class="my-4 py-5">
+            <article class="service-text text-center py-4 mx-3">
+                <h1>HERO Ride
+                    <hr>
+                </h1>
+            </article>
+            <article class="container mx-auto py-3 mx-1 last-section">
+                <!-- <div class="px-lg-3"> -->
+                <div class="row row-cols-1 row-cols-md-3 g-5 mx-lg-0 mx-1 d-flex align-items-center">
+                    <div class="col">
+                        <img src="images/rider.jpg" alt="" class="img-fluid" width="546" height="457">
+                    </div>
+                    <div class="col text-center">
+                        <h2 class="fw-bolder">Learn To Ride </h2>
+                        <p>New to riding? No problem. From how to ride to the rules of the road, dealerships across
+                            the country offer New Rider courses to teach you everything you need to know.</p>
+                    </div>
+                    <div class="col text-center">
+                        <a href="#" class="btn btn-primary stretched-link border-0 text-uppercase py-3 px-5"
+                            style="background-color: #e76f51;">Learn more</a>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </article>
+        </section>
+
+
+
     </main>
 
     <footer>
@@ -185,7 +424,7 @@
     </footer>
 
     <!-- bootstrap js scirpt  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
